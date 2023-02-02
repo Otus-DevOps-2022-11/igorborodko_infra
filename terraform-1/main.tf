@@ -41,7 +41,7 @@ resource "yandex_compute_instance" "app" {
     host  = yandex_compute_instance.app.network_interface.0.nat_ip_address
     user  = "ubuntu"
     agent = false
-    # путь до приватного ключа
+    #  путь до приватного ключа
     private_key = file(var.private_key_path)
   }
 
