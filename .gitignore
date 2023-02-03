@@ -1,5 +1,5 @@
-*.png
 *.tfstate
 *.tfstate.*.backup
 *.tfstate.backup
 *.tfvars
+.terraform/
